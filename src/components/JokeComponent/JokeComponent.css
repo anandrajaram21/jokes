@@ -1,0 +1,55 @@
+.image {
+  width: 400px;
+  height: 400px;
+}
+
+.image[rotateimg='1'] {
+  animation: spin 1s 1;
+}
+
+.image.face1 {
+  background-image: url('../../assets/face1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(360deg);
+  transition: transform 1s linear;
+}
+
+.image.face2 {
+  background-image: url('../../assets/face2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(360deg);
+  transition: transform 1s linear;
+}
+
+.image.face3 {
+  background-image: url('../../assets/face3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(360deg);
+  transition: transform 1s linear;
+}
+
+.image.face4 {
+  background-image: url('../../assets/face4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(360deg);
+  transition: transform 1s linear;
+}
+
+@keyframes spin {
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

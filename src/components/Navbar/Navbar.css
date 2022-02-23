@@ -1,0 +1,17 @@
+.navbarImage {
+  transition: all 0.25s;
+  width: 80px;
+  height: 80px;
+}
+
+.navbarImage.memoji1 {
+  background-image: url('../../assets/memoji1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbarImage.memoji2 {
+  background-image: url('../../assets/memoji2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
