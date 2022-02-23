@@ -20,4 +20,4 @@ You will also see any lint errors in the console.
 
 ## Bugs
 
-- Sometimes, when clicking the image, the box just becomes empty because it sets an empty joke or a joke with no setup. Not really sure what is happening, or what it is happening.
+- Sometimes, when clicking the image, the box just becomes empty because it sets an empty joke or a joke with no setup. Not really sure what is happening, or why it is happening.
